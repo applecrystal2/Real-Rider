@@ -1,16 +1,12 @@
-using UnityEngine;
+    using UnityEngine;
+using UnityEngine.SceneManagement; // 씬 전환을 위해 필요
 
 public class SceneChanger : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    // Play 버튼에서 호출할 메서드
+    public void ChangeToMainScene()
     {
-        
+        SceneManager.LoadScene("Main");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
