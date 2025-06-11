@@ -61,7 +61,7 @@ Material:
     - _GlowAmount: 1.04
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.3084662, g: 0.08918239, b: 6.302234, a: 1}
+    - _Color: {r: 1.1921333, g: 0.91283727, b: 8.413977, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
