@@ -38,13 +38,10 @@ public class MyCarController : MonoBehaviour
             surfaceEffector2D.speed = 5f;
         }
 
-        UIManager.Instance.UpdateSurfaceText($"Surface Speed : {surfaceEffector2D.speed:F1}");
-
         if (Input.GetKeyDown(KeyCode.Space) && onGround)
         {
             Jump();
         }
-        UIManager.Instance.UpdateCarSpeedText($"Car Speed : {rb.linearVelocity.magnitude:F1}");       
     }
 
     private void Jump()

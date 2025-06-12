@@ -1,4 +1,4 @@
-    using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement; // 씬 전환을 위해 필요
 
 public class SceneChanger : MonoBehaviour
